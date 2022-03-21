@@ -19,6 +19,8 @@ int main()
 	extern void TestIO();
 	TestIO();
 
+	extern void TestVector();
+	TestVector();
 
 	std::cout << "end" << std::endl;
 	return 0;
